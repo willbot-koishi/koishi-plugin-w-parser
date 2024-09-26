@@ -18,6 +18,12 @@
       "yml-register/types"
     ]
   },
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "nodenext",
+    }
+  },
   "include": [
     "src"
   ]
